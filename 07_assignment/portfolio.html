@@ -1,0 +1,148 @@
+<!--
+AUTHOR: JERIMIE C. CASUGAY
+11-26-2026 
+This took 45 minutes to complete.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to My Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <a class="brand" href="portfolio.html">Jerimie Casugay</a>
+            <nav>
+                <ul class="page-links">
+                    <li><a href="portfolio.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com/akiyaa05" target="_blank">
+                            <img src="images/facebook-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/akiaa08" target="_blank">
+                            <img src="images/github-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jerimie-casugay-72986b41b" target="_blank">
+                            <img src="images/linkedin-icon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Welcome to My Portfolio</h1>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! I am a 4th year BSIT student and I am an OJT trainee at Armada Logics, where I am currently learning the fundamentals of web development.</p>
+                <img
+                    src="images/me-img.png"
+                    alt="Portrait of Jerimie Casugay."
+                    width="140"
+                    height="140">
+                <p>Hi, I'm a 4th year BSIT student who is currently learning the fundamentals of web development in Armada Logics.</p>
+                <p>This portfolio shows what I have built so far while on my journey as an IT Student.</p>
+            </section>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Project Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OptiPonics</td>
+                            <td>An IoT-Driven Aquaponics System with real time analytics.</td>
+                            <td>2026</td>
+                        </tr>
+                        <tr>
+                            <td>PestDex</td>
+                            <td>A Centralized Fall Armyworm (FAW) Pest Information and Management System.</td>
+                            <td>2026</td>
+                        </tr>
+                        <tr>
+                            <td>LokalRPG</td>
+                            <td>A gamified job-matching platform for short-term workers.</td>
+                            <td>2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Contact Me</h2>
+                <form class="contact-form" action="#" method="GET">
+                    <label class="form-label" for="full-name">Full Name:</label>
+                    <input class="text-input" type="text" id="full-name" name="full_name" required>
+                    <br><br>
+                    <label class="form-label" for="email">Email Address:</label>
+                    <input class="text-input" type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <fieldset>
+                        <legend>How did you hear about this portfolio?</legend>
+
+                        <input type="radio" id="friend" name="source" value="friend">
+                        <label for="friend">Friend</label>
+                        <br>
+
+                        <input type="radio" id="social-media" name="source" value="social-media">
+                        <label for="social-media">Social Media</label>
+                        <br>
+
+                        <input type="radio" id="search-engine" name="source" value="search-engine">
+                        <label for="search-engine">Search Engine</label>
+                        <br>
+
+                        <input type="radio" id="other" name="source" value="other">
+                        <label for="other">Other</label>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Skills and interests</legend>
+
+                        <input type="checkbox" id="data-analytics" name="skills" value="data-analytics">
+                        <label for="data-analytics">Data Analytics</label>
+                        <br>
+
+                        <input type="checkbox" id="cybersecurity" name="skills" value="Cybersecurity">
+                        <label for="cybersecurity">Cybersecurity</label>
+                        <br>
+
+                        <input type="checkbox" id="basic-programming" name="skills" value="basic-programming">
+                        <label for="basic-programming">Basic Programming</label>
+                    </fieldset>
+                    <br>
+
+                    <label for="comments">Comments or messages:</label>
+                    <br>
+                    <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+                    <br><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Jerimie C. Casugay 2026</p>
+        </footer>
+    </body>
+</html>

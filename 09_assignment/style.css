@@ -1,0 +1,60 @@
+/*
+AUTHOR: JERIMIE C. CASUGAY
+11-26-2026 
+This took 25 minutes to complete.
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 0;
+    color: white;
+    width: 1200px;
+}
+
+header {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 373px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-bar,
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background-color: lightcoral;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: orangered;
+    text-align: center;
+    padding: 20px;
+}
